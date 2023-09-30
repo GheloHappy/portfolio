@@ -1,0 +1,21 @@
+.outer {
+    float: left;
+    position: absolute;
+    background-color:#000000;
+    height: 100%;
+    width: 12rem;
+}
+
+.inner {
+    height: 80%;
+    margin: 10rem 1rem 0 1rem;
+    color: white;
+    text-align: center;
+}
+
+.propic {
+    width: 7rem;
+    height: 7rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
