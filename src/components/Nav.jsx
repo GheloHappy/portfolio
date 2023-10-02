@@ -1,5 +1,6 @@
 import '../css/nav.css'
 import propic from '../assets/img/propic_v4.png'
+import flag from '../assets/img/ph.png'
 import email_ico from '../assets/img/email.png'
 
 const Nav = () => {
@@ -7,7 +8,7 @@ const Nav = () => {
         <div className='outer'>
             <div className='inner'>
                 <img className='propic' src={propic} alt="Profile Picture" />
-                {/* <span>Ghelonico Maligaya</span> */}
+                <span><img className='flag' src={flag} /></span>
                 <div className='links'>
                     <div className='link'><a href='/'>Home</a></div>
                     <div className='link'><a href='#'>About</a></div>

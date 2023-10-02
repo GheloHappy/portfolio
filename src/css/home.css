@@ -10,7 +10,7 @@
 }
 
 .text {
-    position: relative;
+    position: inherit;
     display: inline-block;
     /* animation: scroll 20s linear forwards; */
     /* transform: rotateX(20deg); */

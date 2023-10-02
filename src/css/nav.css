@@ -20,12 +20,17 @@
     border-radius: 50%;
 }
 
+.flag {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
  a {
     font-family: "jediFont";
  }
 
 .links {
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .link{
