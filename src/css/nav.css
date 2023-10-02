@@ -1,9 +1,9 @@
 .outer {
-    float: left;
+    float: top;
     position: absolute;
     background-color:#000000;
     height: 100%;
-    width: 12rem;
+    width: 10rem;
 }
 
 .inner {
@@ -20,8 +20,12 @@
     border-radius: 50%;
 }
 
+ a {
+    font-family: "jediFont";
+ }
+
 .links {
-    margin-top: 8rem;
+    margin-top: 10rem;
 }
 
 .link{
@@ -31,12 +35,12 @@
 .link a {
     text-decoration: none;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .contact {
     margin-bottom: 1rem;
-    margin-left: 1rem;
+    margin-left: .5rem;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -44,8 +48,8 @@
 }
 
 .email-ico {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
     background-color: #fff;
     border-radius: 50%;
 }
@@ -54,5 +58,10 @@
     margin: .5rem 0 0 .5rem;
     text-decoration: none;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: .9rem;
+}
+
+@font-face {
+    font-family: 'jediFont';
+    src: url('../assets//fonts/Starjedi.ttf');
 }

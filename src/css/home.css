@@ -1,0 +1,66 @@
+.page {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.intro span{
+    font-size: 4rem;
+    font-family: "jholfont";
+}
+
+.text {
+    position: relative;
+    display: inline-block;
+    /* animation: scroll 20s linear forwards; */
+    /* transform: rotateX(20deg); */
+    margin-top: 15rem; 
+}
+
+.details {
+    font-size: 1.5rem;
+    font-family: "jediFont";
+    margin: 0 15rem;
+    /* color: #ffc909; */
+}
+
+.details2 {
+    margin-top: 20%;
+    position: relative;
+    font-size: 2rem;
+    font-family: "jediFont";
+    margin: 0 15rem;
+    color: #ffc909;
+    animation: scroll 10s linear forwards;
+}
+
+@font-face {
+    font-family: 'jholfont';
+    src: url('../assets//fonts/Starjhol.ttf');
+}
+
+@font-face {
+    font-family: 'jediFont';
+    src: url('../assets//fonts/Starjedi.ttf');
+}
+
+/* @keyframes scroll  {
+    from {
+        top: 0; 
+        transform: translateZ(0) rotateX(20deg);
+    }
+    to {
+        top: -7500px; transform: 
+        translateZ(-2000px) rotateX(21deg);
+     }
+} */
+
+
+@keyframes scroll  {
+    from {
+        top: 30rem; 
+    }
+    to {
+        top: -1rem;
+     }
+}
