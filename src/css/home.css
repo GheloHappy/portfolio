@@ -14,7 +14,7 @@
     display: inline-block;
     /* animation: scroll 20s linear forwards; */
     /* transform: rotateX(20deg); */
-    margin-top: 15rem; 
+    margin-top: 8rem; 
 }
 
 .details {
@@ -101,7 +101,7 @@
 
     .details {
         font-size: 1rem;
-        margin: 5rem 2rem;
+        margin: 3rem 2rem;
     }
 
     .details2 {

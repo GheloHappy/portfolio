@@ -6,7 +6,9 @@ const Home = () => {
             <div className='page'>
                 <div className='text'>
                     <div className='intro'>
-                        <span>hi, i'm ghelonico maligaya</span>
+                        <span>hi, i'm</span>
+                        <br />
+                        <span>ghelonico maligaya</span>
                         <br />
                         <span>Software developer</span>
                         {/* <br />
