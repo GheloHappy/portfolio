@@ -1,7 +1,7 @@
 .outer {
     float: top;
     position: absolute;
-    background-color:#000000;
+    background-color: #000000;
     height: 100%;
     width: 10rem;
 }
@@ -25,15 +25,15 @@
     width: 2.5rem;
 }
 
- a {
+a {
     font-family: "jediFont";
- }
+}
 
 .links {
     margin-top: 5rem;
 }
 
-.link{
+.link {
     margin-top: 5rem;
 }
 
@@ -66,7 +66,103 @@
     font-size: .9rem;
 }
 
+.menu {
+    display: none;
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+}
+
+.menu span {
+    height: 0.4rem;
+    width: 100%;
+    color: #fff;
+    border-radius: 0.2rem;
+}
+
 @font-face {
     font-family: 'jediFont';
     src: url('../assets//fonts/Starjedi.ttf');
+}
+
+@media (max-width: 1060px) {
+    .outer {
+        float: top;
+        display: flex;
+        position: absolute;
+        background-color: #000000;
+        height: 5rem;
+        width: 100%;
+    }
+
+    .inner {
+        width: 100%;
+        margin: 0;
+    }
+
+    .propic {
+        width: 4rem;
+        height: 4rem;
+        background-color: #fff;
+        border-radius: 50%;
+        float: left;
+        margin: .5rem 0 0 2rem;
+        display: none;
+    }
+
+    .flag {
+        display: none;
+    }
+
+    .links {
+        display: flex;
+        margin-top: 0;
+        float: right;
+        margin: 1.5rem .5rem 0 0;
+    }
+
+    .link {
+        margin-top: 0;
+        margin-right: 2rem;
+    }
+
+    .contact {
+        display: none;
+    }
+}
+
+@media (max-width: 560px) {
+
+    .menu {
+        display: flex;
+    }
+
+    .outer {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .open {
+       display: flex;
+    }
+
+    .links {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 0.25rem;
+        background-color: rgb(238, 234, 234);
+        margin: 0.2rem 0.5rem;
+        margin-right: 2rem;
+    }
+    
+
+    .link {
+        font-size: 1rem;
+    }
 }

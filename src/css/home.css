@@ -64,3 +64,48 @@
         top: -1rem;
      }
 }
+
+@media (max-width: 1366px) {
+    .intro span{
+        font-size: 3rem;
+        font-family: "jholfont";
+    }
+}
+
+@media (max-width: 1060px) {
+    .intro span{
+        font-size: 2.5rem;
+        font-family: "jholfont";
+    }
+
+    .details {
+        font-size: 1.5rem;
+        margin: 0 2rem;
+    }
+
+    .details2 {
+        font-size: 1.5rem;
+        margin: 0 2rem;
+    }
+}
+
+@media (max-width: 560px) {
+    .text {
+        margin-top: 10rem;
+    }
+    .intro span{
+        font-size: 1.5rem;
+        font-family: "jholfont";
+        margin: 0 2rem
+    }
+
+    .details {
+        font-size: 1rem;
+        margin: 5rem 2rem;
+    }
+
+    .details2 {
+        font-size: 1rem;
+        margin: 0 2rem;
+    }
+}
