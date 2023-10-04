@@ -109,3 +109,25 @@
         margin: 0 2rem;
     }
 }
+
+@media screen and (max-width: 356px), 
+       screen and (max-height: 750px) {
+    .text {
+        margin-top: 10rem;
+    }
+    .intro span{
+        font-size: 1.2rem;
+        font-family: "jholfont";
+        margin: 0 2rem
+    }
+
+    .details {
+        font-size: .8rem;
+        margin: 2rem 2rem;
+    }
+
+    .details2 {
+        font-size: .8rem;
+        margin: 1rem 2rem;
+    }
+}
