@@ -1,0 +1,68 @@
+.about-page {
+    width: 100%;
+    display: flex;
+    position: inherit;
+    font-family: 'sebino';
+}
+
+.abt-propic {
+    font-size: 2rem;
+    color: #ece5e5;
+    text-align: center;
+    padding-right: 2rem;
+    margin-left: 10rem;
+}
+
+.abt-propic img{
+    margin: 2rem 0 0 4rem;  
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+
+.abt-propic h5{
+    margin: 0;
+    margin-left: 3.5rem;
+}
+
+.abt-propic h6{
+    margin: 0;
+    margin-left: 4rem;
+}
+
+.abt-information{
+    height: 100%;
+    margin: 8rem 10rem 0 5rem;
+    width: 100%;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.abt-information p{
+    margin: 0 4rem 1rem 5rem;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'sebino';
+    text-align: center;
+}
+
+.abt-information h3{
+    margin: 4rem 0 0 0;
+}
+
+.abt-summary {
+    color: #ffc909;
+    display: inline-flex;
+    width: 50%;
+}
+
+.abt-summary h6{
+    margin-left: 15rem;
+    margin-right: 1rem;
+}
+
+@font-face {
+    font-family: 'sebino';
+    src: url('../assets//fonts/sebino-medium.ttf');
+}

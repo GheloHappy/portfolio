@@ -75,11 +75,11 @@ html {
   margin-top: -60px;
   padding-left: 10px;
 }
-#title span {
+/* #title span {
   background: -webkit-linear-gradient(white, #38495a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
 @keyframes animStar {
   from {
